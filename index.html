@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Dreams and Goals</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Our Dreams and Goals</h1>
+            <p>“Together, we can achieve anything.”</p>
+        </header>
+
+        <div id="goals-board" class="goals-board">
+            <!-- Hardcoded dreams -->
+            <div class="goal" onclick="revealReason(this)">
+                <h3>Travel to Paris</h3>
+                <p class="reason hidden">Experience the Eiffel Tower and share a romantic dinner in the city of love. 🌹</p>
+            </div>
+            <div class="goal" onclick="revealReason(this)">
+                <h3>Buy Our Dream House</h3>
+                <p class="reason hidden">Create a cozy home where every corner is filled with love and laughter. 🏡</p>
+            </div>
+            <div class="goal" onclick="revealReason(this)">
+                <h3>Have Beautiful Kids</h3>
+                <p class="reason hidden">Having mini versions of you and I will be so perfect. 🪂</p>
+            </div>
+            <div class="goal" onclick="revealReason(this)">
+                <h3>Plant a Garden</h3>
+                <p class="reason hidden">Grow flowers and vegetables as a symbol of nurturing our love and watching it bloom. 🌱</p>
+            </div>
+            <div class="goal" onclick="revealReason(this)">
+                <h3>Grow Old Together</h3>
+                <p class="reason hidden">Watching you my whole life and growing old with you will be a blessing.❤️</p>
+            </div>
+            <div class="goal" onclick="revealReason(this)">
+                <h3>Eating From Your Hands</h3>
+                <p class="reason hidden">You feeding me is the one feeling I always want to experience till I die.❤️</p>
+            </div>
+            <div class="goal" onclick="revealReason(this)">
+                <h3>Fun Parks</h3>
+                <p class="reason hidden">Doing all possible fun childish activities with you as it pleases me to see your inner child.❤️</p>
+            </div>
+            <div class="goal" onclick="revealReason(this)">
+                <h3>Pamper You</h3>
+                <p class="reason hidden">I wanna pamper you whole my life according to my max capability as I wish to give you everything which you want and deserve.❤️</p>
+            </div>
+            <div class="goal" onclick="revealReason(this)">
+                <h3>Love You</h3>
+                <p class="reason hidden">I wanna love you my whole life as if it was the first time loving you.❤️</p>
+            </div>
+        </div>
+
+        <!-- Open Me button -->
+        <div class="button-container">
+            <button id="openMeButton" onclick="openMe()">Open Me</button>
+        </div>
+
+        <!-- Message box -->
+        <div id="messageBox" class="hidden">
+            <h2>To My Love</h2>
+            <p>You are my everything, my world, my forever. With you, I have found the meaning of true happiness, and I promise to cherish you always. Sometimes my way of talking or actions may have hurt you but I promise I will be a better man for our future. Thank you for being mine and for your constant support. Will always love you my dear wife. ❤️</p>
+            <button onclick="closeMessage()">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
